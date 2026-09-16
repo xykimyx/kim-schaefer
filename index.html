@@ -1,269 +1,335 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kim Schäfer – Content & Social Media Managerin mit Fokus SEO</title>
-  <meta name="description" content="Portfolio von Kim Schäfer: Content- und Social-Media-Managerin aus Potsdam mit Schwerpunkt SEO, Podcast und regionale Geschichten." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kim Schäfer – Content & Social Media Managerin mit Fokus auf SEO und Storytelling.">
+  <title>Kim Schäfer | Content & Social Media</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Allura&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo">
-        <a href="index.html">Kim Schäfer</a>
-      </div>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#uber-mich">Über mich</a></li>
-          <li><a href="#kompetenzen">Kompetenzen</a></li>
-          <li><a href="#projekte">Projekte</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
+  <div class="page-shell">
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+      <a href="#home" class="brand">Kim Schäfer</a>
+
+      <button class="menu-toggle" aria-label="Menü öffnen">
+        ☰
+      </button>
+
+      <nav class="main-navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Über mich</a>
+        <a href="#projects">Projekte</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Kontakt</a>
       </nav>
-    </div>
-  </header>
 
-  <main>
-    <!-- Hero mit Foto -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <div class="hero-badge">Portfolio</div>
-          <h1>Content & Social Media Managerin<br />mit Fokus SEO & Storytelling</h1>
-          <p class="hero-sub">
-            Ich verbinde redaktionelles Handwerk, strategisches SEO und visuelle Gestaltung –
-            für Marken, die gesehen und gehört werden wollen.
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Pinterest">p</a>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- HERO -->
+      <section id="home" class="hero section">
+
+        <div class="hero-copy">
+          <p class="eyebrow">
+            CONTENT · SOCIAL MEDIA · SEO · STORYTELLING
           </p>
-          <div class="hero-cta">
-            <a href="#projekte" class="btn btn-primary">Meine Projekte</a>
-            <a href="#kontakt" class="btn btn-secondary">Kontakt aufnehmen</a>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="kim-schaefer01.png" alt="Porträtfoto von Kim Schäfer" />
-        </div>
-      </div>
-    </section>
 
-    <!-- Über mich -->
-    <section id="uber-mich" class="section about">
-      <div class="container about-inner">
-        <h2>Über mich</h2>
-        <div class="about-content">
-          <div class="about-text">
-            <p>
-              Ich bin Kim, 26 Jahre alt, und arbeite seit 2025 als Content- und Social-Media-Managerin
-              in einer Agentur im Raum Potsdam/Brandenburg. Mit journalistischem Hintergrund und
-              4 Semestern Medienwirtschaft & Journalismus (Jade Hochschule) entwickle ich Inhalte,
-              die Menschen erreichen – online wie im Audio.
-            </p>
-            <p>
-              Mein Schwerpunkt liegt auf der Verbindung von Content, Social Media und SEO:
-              von der Strategie über die redaktionelle Umsetzung bis zur technischen Basis
-              (Website, Search Console, OnPage-Optimierung).
-            </p>
-            <p>
-              Parallel betreibe ich den Podcast „Brandenburgs dunkle Geheimnisse“ – eine Sammlung
-              regionaler, mystischer Geschichten, die ich auch SEO-technisch als eigenes Projekt
-              nutze.
-            </p>
-          </div>
-          <div class="about-highlights">
-            <ul>
-              <li>Content- & Social-Media-Strategie</li>
-              <li>SEO (OnPage, technische Basics, Podcast-SEO)</li>
-              <li>Redaktion & Storytelling (Radio, Podcast, Text)</li>
-              <li>Website-Umsetzung mit HTML, CSS, GitHub Pages</li>
-            </ul>
+          <h1>
+            Content & Social Media<br>
+            Managerin mit Fokus<br>
+            SEO & Storytelling
+          </h1>
+
+          <p class="intro-text">
+            Ich entwickle starke Inhalte, die Menschen erreichen,
+            Marken sichtbar machen und Geschichten erzählen,
+            die bleiben.
+          </p>
+
+          <div class="button-row">
+            <a href="#projects" class="button button-primary">
+              Meine Projekte →
+            </a>
+
+            <a href="#contact" class="button button-outline">
+              Kontakt aufnehmen
+            </a>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Kompetenzen -->
-    <section id="kompetenzen" class="section skills">
-      <div class="container">
-        <h2>Meine Kompetenzen</h2>
+        <div class="hero-visual">
+          <div class="portrait-wrap">
+            <img
+              src="Kim-schaefer01.png"
+              alt="Kim Schäfer"
+              class="portrait"
+            >
+          </div>
+
+          <div class="hero-shape"></div>
+
+          <div class="hero-note">
+            Gute Inhalte<br>
+            bringen Menschen<br>
+            zusammen.
+            <span>⌁</span>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- ÜBER MICH -->
+      <section id="about" class="about section">
+
+        <div class="about-copy">
+          <p class="eyebrow">ÜBER MICH</p>
+
+          <h2>
+            Hallo, ich bin<br>
+            Kim Schäfer.
+          </h2>
+
+          <p>
+            Ich bin Content- und Social Media Managerin mit Sitz
+            in Brandenburg. Ich liebe es, kreative Inhalte zu entwickeln,
+            Strategien zu planen und mit Text, Bild und Ton Geschichten
+            zu erzählen – für Marken, Menschen und gesellschaftlich
+            relevante Themen.
+          </p>
+
+          <p>
+            Dabei kombiniere ich kreatives Gespür mit analytischem
+            Denken – und immer dem Ziel: echte Wirkung.
+          </p>
+
+          <div class="signature">
+            Kim Schäfer <span>♥</span>
+          </div>
+        </div>
+
+        <div class="highlights-card">
+          <h3>Meine Highlights</h3>
+
+          <ul class="highlight-list">
+            <li>Mehrjährige Erfahrung im Content- und Social Media Management</li>
+            <li>Erfolgreiche SEO-Strategien für mehr Sichtbarkeit und Reichweite</li>
+            <li>Erfahrung in Audio- und Podcast-Produktion</li>
+            <li>Kreatives Storytelling mit strategischem Blick</li>
+            <li>Sicherer Umgang mit modernen Tools und Plattformen</li>
+          </ul>
+        </div>
+
+      </section>
+
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills section">
+
+        <p class="eyebrow">MEINE SKILLS</p>
+        <h2>Das kann ich</h2>
+
         <div class="skills-grid">
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M7 8h10M7 12h10M7 16h6" stroke-linecap="round" />
-                <rect x="4" y="4" width="16" height="16" rx="2" />
-              </svg>
-            </div>
+
+          <article class="skill-card">
+            <div class="skill-icon coral">⌁</div>
             <h3>Content & Social Media</h3>
-            <ul>
-              <li>Redaktionelle Konzepte</li>
-              <li>Content-Planning & Redaktionspläne</li>
-              <li>Instagram, TikTok, LinkedIn</li>
-              <li>Texte, Captions, Skripte</li>
-            </ul>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <circle cx="11" cy="11" r="7" />
-                <path d="M20 20l-3.5-3.5" stroke-linecap="round" />
-              </svg>
-            </div>
+            <p>
+              Strategie, Content Creation,
+              Community Management,
+              Redaktionsplanung
+            </p>
+            <a href="#contact">→</a>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon navy">⌕</div>
             <h3>SEO & Website</h3>
-            <ul>
-              <li>Keyword-Recherche</li>
-              <li>OnPage-Optimierung</li>
-              <li>Technische Basics (Sitemap, robots.txt)</li>
-              <li>Google Search Console</li>
-            </ul>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M6 12v-2M10 12V8M14 12v-4M18 12v-6" stroke-linecap="round" />
-                <rect x="4" y="6" width="16" height="12" rx="2" />
-              </svg>
-            </div>
+            <p>
+              Keyword-Strategie,
+              Onpage-Optimierung,
+              Content-SEO, Analyse
+            </p>
+            <a href="#contact">→</a>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon coral">♩</div>
             <h3>Audio & Podcast</h3>
-            <ul>
-              <li>Podcast-Konzeption</li>
-              <li>Skript & Moderation</li>
-              <li>Schnitt (z. B. Adobe Audition)</li>
-              <li>Veröffentlichung (Spotify, Apple)</li>
-            </ul>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M12 6l6 6M6 18l6-6" stroke-linecap="round" />
-                <circle cx="12" cy="12" r="9" />
-              </svg>
-            </div>
+            <p>
+              Konzeption, Aufnahme,
+              Schnitt, Veröffentlichung,
+              Show-Management
+            </p>
+            <a href="#contact">→</a>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon navy">▣</div>
             <h3>Design & Tools</h3>
-            <ul>
-              <li>HTML, CSS, GitHub Pages</li>
-              <li>WordPress-Basics</li>
-              <li>Canva, Adobe InDesign</li>
-              <li>Domain, DNS, SSL</li>
-            </ul>
+            <p>
+              Canva, Adobe Creative Suite,
+              Figma, WordPress, Later,
+              Notion u. v. m.
+            </p>
+            <a href="#contact">→</a>
+          </article>
+
+        </div>
+      </section>
+
+
+      <!-- PROJEKTE -->
+      <section id="projects" class="projects section">
+
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow">MEINE PROJEKTE</p>
+            <h2>Ausgewählte Arbeiten</h2>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Projekte -->
-    <section id="projekte" class="section projects">
-      <div class="container">
-        <h2>Ausgewählte Projekte</h2>
+          <a href="#contact" class="text-link">
+            Alle Projekte ansehen →
+          </a>
+        </div>
+
         <div class="projects-grid">
-          <!-- Projekt 1: Podcast -->
-          <article class="project-card featured">
-            <div class="project-content">
-              <h3>Podcast „Brandenburgs dunkle Geheimnisse“</h3>
-              <p class="project-meta">
-                Konzept, Website, SEO, Distribution – eigenes Projekt
-              </p>
-              <p>
-                Regionaler Podcast über mystische Geschichten und dunkle Orte in Brandenburg.
-                Eigene Website auf GitHub Pages, gezielte OnPage-Optimierung und
-                Einbindung in die Google Search Console.
-              </p>
-              <ul class="project-highlights">
-                <li>Eigene Domain: brandenburgsdunklegeheimnisse.de</li>
-                <li>SEO-fokussierte Episodenseiten mit Transkripten</li>
-                <li>Sichtbarkeit für Keywords wie „Brandenburg Sagen“</li>
-              </ul>
-              <a href="case-podcast.html" class="btn btn-outline">Case Study ansehen</a>
-            </div>
-          </article>
 
-          <!-- Projekt 2: Agentur-Projekt (Platzhalter) -->
           <article class="project-card">
+            <div class="project-image project-image-podcast">
+              <span class="project-tag">Podcast</span>
+            </div>
+
             <div class="project-content">
-              <h3>Social-Media-Relaunch für regionalen Dienstleister</h3>
-              <p class="project-meta">
-                Agenturprojekt – Content, Strategie, Umsetzung
-              </p>
+              <h3>Brandenburgs dunkle Geheimnisse</h3>
               <p>
-                Entwicklung einer neuen Social-Media-Strategie, Aufbau eines
-                Redaktionsplans und Umsetzung von Content-Formaten für Instagram und LinkedIn.
+                Konzeption und Umsetzung eines
+                Mystery- und Storytelling-Podcasts
+                über Brandenburg.
               </p>
-              <ul class="project-highlights">
-                <li>Strukturierter Content-Mix aus Education, Story & Promotion</li>
-                <li>Steigerung der organischen Reichweite</li>
-                <li>Verzahnung mit Website-Content</li>
-              </ul>
-              <a href="case-agentur-1.html" class="btn btn-outline">Case Study ansehen</a>
+              <a href="#" class="project-link">Zum Projekt →</a>
             </div>
           </article>
 
-          <!-- Projekt 3: Vereinswebsite (Platzhalter) -->
+
           <article class="project-card">
+            <div class="project-image project-image-agency">
+              <span class="project-tag">Agentur</span>
+            </div>
+
             <div class="project-content">
-              <h3>Ehrenamtliche Betreuung einer Vereinswebsite</h3>
-              <p class="project-meta">
-                CMS, Content, SEO-Basics – ehrenamtliches Projekt
-              </p>
+              <h3>Content & Social Media für Digitalagentur</h3>
               <p>
-                Redaktionelle und technische Betreuung einer Vereinswebsite:
-                Struktur, Inhalte, einfache SEO-Maßnahmen und Schulung der Verantwortlichen.
+                Strategie, Content Creation und
+                Community Management für eine
+                Digitalagentur.
               </p>
-              <ul class="project-highlights">
-                <li>Klare Informationsarchitektur</li>
-                <li>Leicht verständliche Texte für verschiedene Zielgruppen</li>
-                <li>Basis-SEO: Titel, Meta, interne Verlinkung</li>
-              </ul>
-              <a href="case-verein.html" class="btn btn-outline">Case Study ansehen</a>
+              <a href="#" class="project-link">Zum Projekt →</a>
             </div>
           </article>
-        </div>
-      </div>
-    </section>
 
-    <!-- CTA: „Lass uns gemeinsam etwas Großartiges schaffen“ -->
-    <section class="section cta-create">
-      <div class="container cta-create-inner">
-        <h2>Lass uns gemeinsam etwas Großartiges schaffen</h2>
-        <p>
-          Ob Content-Strategie, SEO-Optimierung oder Podcast-Konzept – ich unterstütze dich
-          dabei, deine Inhalte sichtbar und wirksam zu machen.
-        </p>
-        <div class="cta-create-buttons">
-          <a href="#kontakt" class="btn btn-primary">Kontakt aufnehmen</a>
-          <a href="#projekte" class="btn btn-secondary">Mehr über meine Arbeit</a>
-        </div>
-      </div>
-    </section>
 
-    <!-- Kontakt -->
-    <section id="kontakt" class="section contact">
-      <div class="container contact-inner">
-        <h2>Kontakt</h2>
-        <p>
-          Du suchst Unterstützung bei Content, Social Media oder SEO – oder möchtest über
-          Podcast-Projekte sprechen? Schreib mir gern eine Nachricht.
-        </p>
-        <div class="contact-links">
-          <a href="mailto:kim.mahry@yahoo.com" class="btn btn-primary">E-Mail schreiben</a>
-          <a href="https://www.linkedin.com/in/kim-sophie-schäfer-8a2bb3355" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
-          <a href="https://brandenburgsdunklegeheimnisse.de" target="_blank" rel="noopener" class="btn btn-secondary">Zum Podcast</a>
-        </div>
-      </div>
-    </section>
-  </main>
+          <article class="project-card">
+            <div class="project-image project-image-website">
+              <span class="project-tag">Ehrenamt</span>
+            </div>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-text">
-        &copy; 2026 Kim Schäfer – Content & Social Media Managerin, Potsdam/Brandenburg
+            <div class="project-content">
+              <h3>Website für gemeinnützigen Verein</h3>
+              <p>
+                Konzeption, Design und Umsetzung
+                einer Website für einen regionalen
+                Naturschutzverein.
+              </p>
+              <a href="#" class="project-link">Zum Projekt →</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+
+      <!-- KONTAKT -->
+      <section id="contact" class="contact-banner">
+
+        <div class="contact-decoration"></div>
+
+        <div class="contact-copy">
+          <p class="eyebrow">KONTAKT</p>
+
+          <h2>
+            Lass uns gemeinsam<br>
+            etwas Großartiges schaffen.
+          </h2>
+
+          <p>
+            Du hast ein Projekt, eine Idee oder einfach Lust
+            auf einen Austausch?<br>
+            Ich freue mich auf deine Nachricht!
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="mailto:DEINE-EMAIL@BEISPIEL.DE"
+             class="button button-primary">
+            Kontakt aufnehmen →
+          </a>
+
+          <a href="#projects" class="button button-outline">
+            Meine Projekte
+          </a>
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <a href="#home" class="footer-brand">Kim Schäfer</a>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Über mich</a>
+        <a href="#projects">Projekte</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+
+      <div class="social-links">
+        <a href="#">in</a>
+        <a href="#">◎</a>
+        <a href="#">p</a>
       </div>
-      <div class="footer-links">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+
+  </div>
+
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const navigation = document.querySelector(".main-navigation");
+
+    toggle.addEventListener("click", () => {
+      navigation.classList.toggle("open");
+    });
+  </script>
+
 </body>
 </html>
