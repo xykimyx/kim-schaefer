@@ -664,12 +664,11 @@ h3 {
 /* Podcast */
 
 .project-image-podcast {
-  background:
-    radial-gradient(
-      circle at 52% 30%,
-      rgba(222, 183, 128, .2),
-      transparent 23%
-    ),
+  background-image: url("images/Brandenburgs-dunkle-Geheimnisse-Logo-1920.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
     linear-gradient(
       135deg,
       #071b25 0%,
