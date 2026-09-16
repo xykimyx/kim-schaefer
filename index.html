@@ -7,7 +7,7 @@
   <meta name="description" content="Portfolio von Kim Schäfer: Content- und Social-Media-Managerin aus Potsdam mit Schwerpunkt SEO, Podcast und regionale Geschichten." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -28,17 +28,23 @@
   </header>
 
   <main>
-    <!-- Hero -->
+    <!-- Hero mit Foto -->
     <section class="hero">
       <div class="container hero-inner">
-        <h1>Content & Social Media Managerin<br />mit Fokus SEO & Storytelling</h1>
-        <p class="hero-sub">
-          Ich verbinde redaktionelles Handwerk, strategisches SEO und visuelle Gestaltung –
-          für Marken, die gesehen und gehört werden wollen.
-        </p>
-        <div class="hero-cta">
-          <a href="#projekte" class="btn btn-primary">Meine Projekte</a>
-          <a href="#kontakt" class="btn btn-secondary">Kontakt aufnehmen</a>
+        <div class="hero-content">
+          <div class="hero-badge">Portfolio</div>
+          <h1>Content & Social Media Managerin<br />mit Fokus SEO & Storytelling</h1>
+          <p class="hero-sub">
+            Ich verbinde redaktionelles Handwerk, strategisches SEO und visuelle Gestaltung –
+            für Marken, die gesehen und gehört werden wollen.
+          </p>
+          <div class="hero-cta">
+            <a href="#projekte" class="btn btn-primary">Meine Projekte</a>
+            <a href="#kontakt" class="btn btn-secondary">Kontakt aufnehmen</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="kim_schaefer01.png" alt="Porträtfoto von Kim Schäfer" />
         </div>
       </div>
     </section>
@@ -84,6 +90,12 @@
         <h2>Meine Kompetenzen</h2>
         <div class="skills-grid">
           <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M7 8h10M7 12h10M7 16h6" stroke-linecap="round" />
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+              </svg>
+            </div>
             <h3>Content & Social Media</h3>
             <ul>
               <li>Redaktionelle Konzepte</li>
@@ -93,6 +105,12 @@
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="11" cy="11" r="7" />
+                <path d="M20 20l-3.5-3.5" stroke-linecap="round" />
+              </svg>
+            </div>
             <h3>SEO & Website</h3>
             <ul>
               <li>Keyword-Recherche</li>
@@ -102,6 +120,12 @@
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M6 12v-2M10 12V8M14 12v-4M18 12v-6" stroke-linecap="round" />
+                <rect x="4" y="6" width="16" height="12" rx="2" />
+              </svg>
+            </div>
             <h3>Audio & Podcast</h3>
             <ul>
               <li>Podcast-Konzeption</li>
@@ -111,6 +135,12 @@
             </ul>
           </div>
           <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 6l6 6M6 18l6-6" stroke-linecap="round" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+            </div>
             <h3>Design & Tools</h3>
             <ul>
               <li>HTML, CSS, GitHub Pages</li>
@@ -188,6 +218,21 @@
               <a href="case-verein.html" class="btn btn-outline">Case Study ansehen</a>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA: „Lass uns gemeinsam etwas Großartiges schaffen“ -->
+    <section class="section cta-create">
+      <div class="container cta-create-inner">
+        <h2>Lass uns gemeinsam etwas Großartiges schaffen</h2>
+        <p>
+          Ob Content-Strategie, SEO-Optimierung oder Podcast-Konzept – ich unterstütze dich
+          dabei, deine Inhalte sichtbar und wirksam zu machen.
+        </p>
+        <div class="cta-create-buttons">
+          <a href="#kontakt" class="btn btn-primary">Kontakt aufnehmen</a>
+          <a href="#projekte" class="btn btn-secondary">Mehr über meine Arbeit</a>
         </div>
       </div>
     </section>
